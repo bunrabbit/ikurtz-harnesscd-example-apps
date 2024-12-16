@@ -12,12 +12,12 @@ service:
                       store:
                         type: Github
                         spec:
-                            connectorRef: harnessgitconnector
+                            connectorRef: account.Github_OAuth_1734293510658
                             gitFetchType: Branch
                             paths:
                                 - guestbook/guestbook-ui-deployment.yaml
                                 - guestbook/guestbook-ui-svc.yaml
-                            repoName: harnesscd-example-apps
+                            repoName: ikurtz-harnesscd-example-apps
                             branch: master
                         skipResourceVersioning: false
                         enableDeclarativeRollback: false
