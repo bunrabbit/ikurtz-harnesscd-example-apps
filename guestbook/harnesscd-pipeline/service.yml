@@ -12,7 +12,7 @@ service:
                       store:
                         type: Github
                         spec:
-                            connectorRef: account.Github_OAuth_1734293510658
+                            connectorRef: ikurtzgithubharnesscdexamples
                             gitFetchType: Branch
                             paths:
                                 - guestbook/guestbook-ui-deployment.yaml
